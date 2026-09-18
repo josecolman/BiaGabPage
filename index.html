@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiaGab Software | Jose Francisco Colmán Schulz</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-slate-950">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-cyan-500 inline-block"></span>
+                BiaGab Software
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-cyan-400 transition-colors">Perfil</a>
+                <a href="#skills" class="hover:text-cyan-400 transition-colors">Tecnologías</a>
+                <a href="#services" class="hover:text-cyan-400 transition-colors">Servicios</a>
+                <a href="#contact" class="hover:text-cyan-400 transition-colors">Contacto</a>
+            </nav>
+            <a href="mailto:josecolman@gmail.com" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold text-sm transition-all shadow-lg shadow-cyan-500/20">
+                <i class="fa-solid fa-paper-plane"></i> Escríbeme
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 md:pt-44 md:pb-32 px-6 relative overflow-hidden">
+        <!-- Background Glow Effect -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/10 blur-[120px] rounded-full pointer-events-none"></div>
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-cyan-400 text-xs font-medium mb-6">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                Disponible para proyectos y consultoría
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-white mb-6">
+                Jose Francisco Colmán Schulz
+            </h1>
+            <p class="text-xl md:text-2xl text-cyan-400 font-medium mb-6">
+                Software Engineer & Head of Development
+            </p>
+            <p class="text-slate-400 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+                Fundador de <strong class="text-slate-200">BiaGab Software</strong>. Especialista en arquitectura de software, backend empresarial y desarrollo de sistemas escalables en Asunción, Paraguay.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#contact" class="px-6 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold transition-all shadow-lg shadow-cyan-500/20">
+                    Contactar
+                </a>
+                <a href="#skills" class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-white font-semibold transition-all">
+                    Ver Tecnologías
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 border-t border-slate-900 bg-slate-900/40">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-6 flex items-center gap-3">
+                <span class="text-cyan-500">//</span> Perfil Profesional
+            </h2>
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-4 text-slate-300 leading-relaxed">
+                <p>
+                    Soy ingeniero de software con amplia trayectoria en el diseño, desarrollo e implementación de soluciones tecnológicas de misión crítica. Actualmente me desempeño como Head of Development liderando equipos técnicos de alto rendimiento.
+                </p>
+                <p>
+                    A través de <strong class="text-white">BiaGab Software</strong>, enfoco mi experiencia en la arquitectura de microservicios, integración de sistemas corporativos y optimización de flujos de desarrollo backend utilizando tecnologías modernas y robustas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 border-t border-slate-900">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4 text-center">Stack Tecnológico</h2>
+            <p class="text-slate-400 text-center mb-12 max-w-xl mx-auto">Herramientas y tecnologías con las que diseño e implemento soluciones escalables.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Backend -->
+                <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6 hover:border-cyan-500/50 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-3">Backend & Arquitectura</h3>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> Java & Spring Boot / Cloud</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> C# & .NET</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> TypeScript & NestJS</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> Microservicios & APIs REST</li>
+                    </ul>
+                </div>
+
+                <!-- Databases & Cache -->
+                <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6 hover:border-cyan-500/50 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-3">Bases de Datos & Mensajería</h3>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> PostgreSQL & PostGIS</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> SQL Server</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> Redis Cache</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> Apache Kafka</li>
+                    </ul>
+                </div>
+
+                <!-- DevOps & Cloud -->
+                <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6 hover:border-cyan-500/50 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-3">DevOps & Infraestructura</h3>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> Docker & Docker Compose</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> Jenkins & CI/CD Pipelines</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> Keycloak Auth</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-500 text-xs"></i> Nginx & Proxy Servers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 border-t border-slate-900 bg-slate-900/40">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4 text-center">Servicios</h2>
+            <p class="text-slate-400 text-center mb-12">Soluciones orientadas a potenciar la eficiencia técnica de tu negocio.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+                    <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-code text-cyan-500"></i> Desarrollo de Software a Medida
+                    </h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Construcción de aplicaciones backend robustas, APIs seguras e integraciones complejas adaptadas a las necesidades específicas de la empresa.
+                    </p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+                    <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-network-wired text-cyan-500"></i> Arquitectura y Consultoría
+                    </h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Evaluación y diseño de arquitectura de sistemas, refactorización de código, diseño de bases de datos y liderazgo técnico de equipos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 border-t border-slate-900">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Contacto</h2>
+            <p class="text-slate-400 mb-8">¿Interesado en colaborar o iniciar un proyecto? Ponte en contacto conmigo.</p>
+            
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 inline-block w-full max-w-xl text-left shadow-xl">
+                <div class="space-y-6">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs text-slate-500 block uppercase font-semibold">Correo Electrónico</span>
+                            <a href="mailto:josecolman@gmail.com" class="text-white font-medium hover:text-cyan-400 transition-colors">josecolman@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs text-slate-500 block uppercase font-semibold">Ubicación</span>
+                            <span class="text-white font-medium">Asunción, Paraguay</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 pt-6 border-t border-slate-800 text-center">
+                    <a href="mailto:josecolman@gmail.com" class="w-full py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold transition-all inline-block shadow-lg shadow-cyan-500/20 text-center">
+                        Enviar un Correo Directo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-900 text-center text-xs text-slate-500">
+        <p>&copy; 2026 BiaGab Software — Jose Francisco Colmán Schulz. Todos los derechos reservados.</p>
+        <p class="mt-1">Diseñado para GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
